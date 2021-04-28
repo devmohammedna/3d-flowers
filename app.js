@@ -44,7 +44,7 @@ sizesbtn1.addEventListener("click", (e) =>{
     sizesbtn2.classList.remove("active")
     sizesbtn4.classList.remove("active")
     sizesbtn1.classList.add("active")
-    sneaker.src = "./flower1.png"
+    sneaker.src = "./picure/flower1.png"
 } );
 
 sizesbtn2.addEventListener("click", (e) =>{
@@ -52,14 +52,16 @@ sizesbtn2.addEventListener("click", (e) =>{
     sizesbtn1.classList.remove("active")
     sizesbtn4.classList.remove("active")
     sizesbtn2.classList.add("active")
-     sneaker.src = "./flower2.png"
+    sneaker.src = "./picure/flower2.png"
+
 } )
 sizesbtn3.addEventListener("click", (e) =>{
     sizesbtn1.classList.remove("active")
     sizesbtn2.classList.remove("active")
     sizesbtn4.classList.remove("active")
     sizesbtn3.classList.add("active")
-    sneaker.src = "./flower3.png"
+    sneaker.src = "./picure/flower3.png"
+
     
 
 } )
@@ -68,6 +70,7 @@ sizesbtn4.addEventListener("click", (e) =>{
     sizesbtn2.classList.remove("active")
     sizesbtn3.classList.remove("active")
     sizesbtn4.classList.add("active")
-    sneaker.src = "./flower4.png"
+    sneaker.src = "./picure/flower4.png"
+
 
 } )
